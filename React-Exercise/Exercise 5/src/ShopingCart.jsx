@@ -98,11 +98,12 @@ function handleRemove(id){
 
      <button onClick={handleClick}>Add To Cart</button>
 
-     <div>
+   {productItem.length > 0 &&  <div>
         <h3>Products in Cart</h3>
         { productLists }
         <h2>Total prices:{total}</h2>
-     </div>
+     </div>}
+     {productItem.length === 0 && <h1>The Cart is Embty</h1>}
         </>
      )
 
