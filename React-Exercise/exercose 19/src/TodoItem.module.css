@@ -1,0 +1,21 @@
+.todoList {
+  display: flex;
+  justify-content:space-between;
+  gap: 90px;
+  align-items: center;
+  
+  
+width: 100%;
+  /* min-height: 10px; */
+  margin-bottom: 17px;
+  padding: 10px;
+
+  background: #f8fafc;
+  border-radius: 7px;
+}
+
+.todoList > div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

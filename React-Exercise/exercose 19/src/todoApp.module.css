@@ -1,0 +1,19 @@
+.header{
+    font: bolder;
+    text-align: center;
+    display: block;
+    font-size: 40px;
+}
+
+.container{
+    max-width: 600px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 ato;
+    border: 3px solid white;
+    border-radius: 6px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
